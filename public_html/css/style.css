@@ -81,7 +81,6 @@ p,   .p {
         list-style-type: none;
         text-decoration: none;
         background-color: #000000;
-        border-radius: 10px;
         height: 200px;
         width: 200px;
         line-height: 200px;
@@ -118,8 +117,8 @@ p,   .p {
         background-color: #0e87bf;     
     }
     
-    .large-links a[href*="about"] {
-        background-color: #CC0000;     
+    .large-links a[href*="About"] {
+        background-color: #e50000;     
     }
     
     .large-links a[href*="five"] {

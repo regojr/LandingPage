@@ -130,6 +130,9 @@ p,   .p {
         background-color: #3b5998;     
     }
     
+    .large-links a[href*="PingPongRanking"] {
+        background-color: #0088CE;     
+    }
     
      #footer {
         padding: 40px 0;

@@ -1,0 +1,125 @@
+/*
+This is the stylesheet for the landing page of jakerego.com
+*/
+/* 
+    Created on : Feb 22, 2015, 5:59:07 PM
+    Author     : Jake Rego
+*/
+html {
+  margin-top: -10px; }
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+  margin-top: -10px; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p, .p {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+  width: 100%; }
+
+@media (min-width: 944px) {
+  .container {
+    width: 100%;
+    left-margin: 0px auto;
+    right-margin: -20px auto;
+    background-color: #D6D6D6;
+    padding-bottom: 25px; }
+
+  .jumbotron {
+    display: inline-block;
+    height: 300px;
+    line-height: 100px;
+    width: 60%;
+    align: center;
+    text-align: start;
+    margin-left: 20%;
+    margin-top: 50px;
+    border: 2px solid #EBEBEB;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 20px; }
+
+  .jumbotron h1 {
+    font-family: 'Bitter', serif;
+    font-size: 80px; }
+
+  .jumbotron p {
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    margin-top: -70px; }
+
+  .link-holder {
+    width: 75%;
+    align: center;
+    margin-left: 12.5%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+  .large-links a {
+    margin: 20px;
+    color: #ffffff;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #000000;
+    height: 125px;
+    width: 125px;
+    line-height: 200px;
+    text-align: center;
+    transition: border-radius .5s;
+    -webkit-transition: border-radius .5s;
+    -o-transition: border-radius .5s;
+    -moz-transition: border-radius .5s;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+
+  .large-links a:hover {
+    border-radius: 125px; }
+
+  .large-links a[href*="facebook"] {
+    background-color: #3b5998; }
+
+  .large-links a[href*="facebook"]:hover {
+    background-color: #3b5998; }
+
+  .large-links a[href*="twitter"] {
+    background-color: #55acee; }
+
+  .large-links a[href*="github"] {
+    background-color: #333333; }
+
+  .large-links a[href*="linkedin"] {
+    background-color: #0e87bf; }
+
+  .large-links a[href*="About"] {
+    background-color: #e50000; }
+
+  .large-links a[href*="five"] {
+    background-color: #222222; }
+
+  .large-links a[href*="project"] {
+    background-color: #3b5998; }
+
+  .large-links a[href*="PingPongRanking"] {
+    background-color: #0088CE; }
+
+  #footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5; }
+
+  #footer p:last-child {
+    margin-bottom: 0; } }
+
+/*# sourceMappingURL=style.css.map */
